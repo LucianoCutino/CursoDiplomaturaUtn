@@ -1,28 +1,33 @@
-h1{
+h1 {
     color: black;
     background-color: orange;
     text-align: center;
     font-family: Arial;
 }
-h2{
+
+h2 {
     color: black;
     background-color: brown;
     font-family: Arial;
 }
-.Belizont{
+
+.Belizont {
     color: red;
     font-family: Impact;
     font-size: 15px;
-    }
-.moto{
+}
+
+.moto {
     color: mediumblue;
     font-family: 'Franklin Gothic Medium';
     font-size: 20px;
 }
-.pepe{
+
+.pepe {
     color: blueviolet;
 }
-#verde{
+
+#verde {
     width: 300px;
     height: 200px;
     background-color: blue;
@@ -31,8 +36,9 @@ h2{
     padding: 20px;
     box-sizing: border-box;
     margin-bottom: 20px;
-    }
-#rojo{
+}
+
+#rojo {
     width: 300px;
     height: 200px;
     background-color: chocolate;
@@ -43,3 +49,7 @@ h2{
     margin: 0 auto
 }
 
+.pepe {
+    display: flex;
+    justify-content: center;
+}
