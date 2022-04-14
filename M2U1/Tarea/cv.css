@@ -1,0 +1,101 @@
+h1 {
+    color: black;
+    background-color: white;
+    text-shadow: 8px 15px 2px rgba(197, 0, 0, 0.87);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: black;
+    background-color: brown;
+    font-family: Arial;
+    border: 10px solid black;
+}
+
+.Belizont {
+    color: red;
+    font-family: Impact;
+    font-size: 15px;
+}
+
+.moto {
+    color: mediumblue;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+}
+
+.pepe {
+    color: blueviolet;
+    border-color: blue;
+}
+
+#verde {
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    font-size: 15px;
+    font-family: Georgia;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 50px 50px 50px 50px;
+    border: 10px solid black;
+    margin-bottom: 15px;
+    box-shadow: 13px 10px 5px 0px rgba(255, 2, 2, 1);
+}
+
+
+#rojo {
+    width: 300px;
+    height: 200px;
+    background-color: chocolate;
+    font-size: 15px;
+    font-family: Georgia;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 10px solid black;
+    border-radius:85px 0px 128px 0px; 
+    margin-bottom: 20px;
+    box-shadow: -9px 8px 5px 0px rgba(252, 0, 0, 0.92);
+}
+
+
+.lulu {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: brown;
+    border: 10px solid black;
+    background: linear-gradient(34deg, #00fff6 0%, #221111 80%);
+}
+
+.lolo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #ff0000 0%, #00ff00 80%);
+    background: -webkit-linear-gradient(90deg, #ff0000 0%, #00ff00 80%);
+    background: -moz-linear-gradient(90deg, #ff0000 0%, #00ff00 80%);
+    border: 10px solid white;
+}
+
+#azul {
+    column-count: 3;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-gap: 15px;
+    -webkit-column-gap: 15px;
+    -moz-column-gap: 15px;
+    column-rule: 8px outset #1f00f6;
+    -webkit-column-rule: 8px outset #1f00f6;
+    -moz-column-rule: 8px outset #1f00f6;
+}
+
+#azul p {
+    margin: 0;
+}
+.Homero{
+    display: flex;
+    justify-content: center;
+}

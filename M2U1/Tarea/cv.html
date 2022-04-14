@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practicas con CSS</title>
+    <link rel="stylesheet" href="cv.css">
+</head>
+
+<body>
+    <h1> Curriculum Vitae
+    </h1>
+    <h2>Nombre y apellido</h2>
+    <p class="lulu">Luciano Cutino</p>
+    <div class= "Homero">
+        <img src="homero.jpg" height="200" alt="mi foto de prueba">
+    </div>
+    <h3>Edad</h3>
+    <p>25 años</p>
+    <h3>Domicilio</h3>
+    <p>Merlo 545 (Moreno)</p>
+    <h3>Experiencia laboral
+    </h3>
+    <ul>
+        <li class="Belizont">Banderillero de Automovilismo</li>
+        <li class="Belizont">Operario en Toyota Argentina</li>
+    </ul>
+    <h3>Deportes practicados</h3>
+    <ol>
+        <li class="moto">Basquet</li>
+        <li class="moto">Voley</li>
+        <li class="moto">Futbol</li>
+    </ol>
+    <p>El club donde jugue estos deportes esta <a href="http://www.clublosindios.com.ar
+    " target="_blank">aqui</a></p>
+    <h3>Perfil</h3>
+    <p>
+        Soy una persona que le gusta crecer personalmente y buscar nuevos objetivos. <span class="pepe"> Estoy dispuesto
+            a dar lo mejor de mi en todo lo que me toque hacer o aprender. Siempre miro hacia adelante.</span>
+    </p>
+
+    <p>En mis tiempos libres me gusta escuchar musica y jugar videojuegos, soy apasionado del automovilismo y me gusta
+        mucho jugar simuladores de autos de carreras.</p>
+
+    <p>Mi objetivo es trabajar como programador web para poder desarrolarme profesionalmente en este ambito y proyectar
+        distintos objetivos a largo plazo.</p>
+    <div id="verde">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est facilis reiciendis explicabo hic debitis! Unde
+            quisquam quibusdam dolore error quas porro molestias, atque repudiandae esse cupiditate nesciunt at enim
+            nemo!
+        </p>
+    </div>
+    <div id="rojo">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempora assumenda nemo asperiores autem dolore
+            repellendus eius expedita nihil sed iure vitae dolorem doloremque magni, magnam iste molestias animi
+            aliquam.
+        </p>
+    </div>
+    <div id="azul">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia accusantium iste aspernatur atque harum,
+            tenetur quaerat. Numquam quo magnam iure quaerat facilis soluta nesciunt commodi, quidem odio culpa,
+            voluptatum consequatur!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab similique praesentium, assumenda laboriosam esse
+            blanditiis totam dolore, eaque dolorum iure quae, illum nisi beatae iste maiores quis libero accusamus
+            voluptates.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis nisi neque ipsum mollitia natus.
+            Libero, accusantium perferendis fuga laborum recusandae nostrum voluptates inventore magnam, quos impedit
+            hic consequuntur, deleniti consequatur.</p>
+    </div>
+
+    <div class="lolo" h3>complete el siguiente formulario.</h3>
+    </div>
+    <form action="" method="">
+        <input type="text" placeholder="Nombre">
+        <input type="text" placeholder="Apellido">
+        <label for="pass">Contraseña</label>
+        <input type="password" id="pass" />
+        <p>
+            <label for="sexo">Sexo</label>
+        <ul>
+            <li>
+                <input type="radio" name="sexo" value="hombre">
+                <label>hombre</label>
+            </li>
+            <li>
+                <input type="radio" name="sexo" value="mujer">
+                <label>Mujer</label>
+            </li>
+        </ul>
+        <label>Hobbies</label>
+        <ul>
+            <li>
+                <input type="checkbox" name="Hobbies" [] value="bailar" id="bailar" />
+                <label for="bailar">bailar</label>
+            </li>
+            <li>
+                <input type="checkbox" name="Hobbies" [] value="cantar" id="cantar" />
+                <label for="cantar">cantar</label>
+            </li>
+            <li>
+                <input type="checkbox" name="Hobbies" [] value="nadar" id="nadar" />
+                <label for="nadar">nadar</label>
+            </li>
+            <li>
+                <input type="checkbox" name="Hobbies" [] value="correr" id="correr" />
+                <label for="correr">correr</label>
+            </li>
+        </ul>
+        <p>
+            <label for="titulo">Titulo</label>
+            <select name="titulo">
+                <option value="primario">Primario</option>
+                <option value="secundario">Secundario</option>
+                <option value="terciario">Terciario</option>
+                <option value="universitario">Universitario</option>
+            </select>
+        </p>
+        <p>
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Borrar" />
+        </p>
+    </form>
+</body>
+
+</html>
