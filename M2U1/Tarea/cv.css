@@ -98,4 +98,7 @@ h2 {
 .Homero{
     display: flex;
     justify-content: center;
+    filter: grayscale(100%) drop-shadow(10px 10px 5px #000000);
+    -webkit-filter: grayscale(100%) drop-shadow(10px 10px 5px #000000);
+    -moz-filter: grayscale(100%) drop-shadow(10px 10px 5px #000000);
 }
