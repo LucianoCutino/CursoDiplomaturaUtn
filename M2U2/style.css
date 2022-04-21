@@ -1,0 +1,116 @@
+body {
+    background: #fbc503;
+    background: linear-gradient(90deg, #fbc503 0%, #ff7200 80%);
+    background: -webkit-linear-gradient(90deg, #fbc503 0%, #ff7200 80%);
+    background: -moz-linear-gradient(90deg, #fbc503 0%, #ff7200 80%);
+}
+
+h1 {
+    background: #fbc503;
+    background: linear-gradient(90deg, #fbc503 0%, #ff7200 80%);
+    background: -webkit-linear-gradient(90deg, #fbc503 0%, #ff7200 80%);
+    background: -moz-linear-gradient(90deg, #fbc503 0%, #ff7200 80%);
+    border-radius: 20px;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-align: center;
+
+}
+
+.contenedor {
+    border: solid 2px black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+.item {
+    border: px solid black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+
+}
+
+.a1 {
+    background: green;
+}
+
+.a2 {
+    background: red;
+}
+
+.a3 {
+    background: blue;
+}
+
+.contenedor2 {
+    border: solid 2px black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+
+
+}
+
+.item2 {
+    border: 1px solid black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+
+}
+
+.b1 {
+    background: green;
+}
+
+.b2 {
+    background: red;
+}
+
+.b3 {
+    background: blue;
+}
+
+
+.contenedor3 {
+    border: solid 2px black;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.item3 {
+    border: 1px solid black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+
+}
+
+.c1 {
+    background: green;
+}
+
+.c2 {
+    background: red;
+}
+
+.c3 {
+    background: blue;
+}

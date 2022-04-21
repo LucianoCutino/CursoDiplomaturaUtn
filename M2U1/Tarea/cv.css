@@ -55,7 +55,7 @@ h2 {
     padding: 15px;
     box-sizing: border-box;
     border: 10px solid black;
-    border-radius:85px 0px 128px 0px; 
+    border-radius: 85px 0px 128px 0px;
     margin-bottom: 20px;
     box-shadow: -9px 8px 5px 0px rgba(252, 0, 0, 0.92);
 }
@@ -95,10 +95,20 @@ h2 {
 #azul p {
     margin: 0;
 }
-.Homero{
+
+.Homero {
+    cursor: pointer;
     display: flex;
     justify-content: center;
     filter: grayscale(100%) drop-shadow(10px 10px 5px #000000);
     -webkit-filter: grayscale(100%) drop-shadow(10px 10px 5px #000000);
     -moz-filter: grayscale(100%) drop-shadow(10px 10px 5px #000000);
+}
+
+.Homero:hover {
+    filter: grayscale(0%);
+}
+.cami{
+    background-color: #ff0000;
+    border: 10px solid black;
 }
