@@ -5,7 +5,7 @@ import Header from './components/layout/Header';
 import Nav from './components/layout/Nav';
 import Footer from './components/layout/Footer';
 
-import InicioPage from './pages/InicioPage';
+import InicioPage from './pages/InicioPage ';
 import InstitucionalPage from './pages/InstitucionalPage';
 import PilotosPage from './pages/PilotosPage';
 import CalendarioPage from './pages/CalendarioPage';
@@ -23,18 +23,17 @@ function App() {
       <Nav/> 
       <Footer/>
       <Routes>
-      <Route path="/" element={<InicioPage/>}/>
-      <Route path="institucional" element={<InstitucionalPage/>}/>
+      <Route path="/" element={<InicioPage/>} />
+      <Route path="institucional" element={<InstitucionalPage/>} />
       <Route path="pilotos" element={<PilotosPage/>}/>
-      <Route path="calendario" element={<CalendarioPage/>}/>
-      <Route path="fotos" element={<FotosPage/>}/>
-      <Route path="novedades" element={<NovedadesPage/>}/>
-      <Route path="contacto" element={<ContactoPage/>}/>
+      <Route path="calendario" element={<CalendarioPage/>} />
+      <Route path="fotos" element={<FotosPage/>} />
+      <Route path="novedades" element={<NovedadesPage/>} />
+      <Route path="contacto" element={<ContactoPage/>} />
       
       </Routes>
       </BrowserRouter>
 
-      <Footer/>
     </div>
   );
 }
