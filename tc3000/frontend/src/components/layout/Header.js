@@ -1,3 +1,5 @@
+import '../../styles/Layout.css';
+
 import { Link } from "react-router-dom";
 
 const Header = (props) => {
@@ -9,7 +11,7 @@ const Header = (props) => {
                 <label for="check" class="checkbtn">
                     <i class="fa-solid fa-bars"></i>
                 </label>
-                <a href="#" class="enlance">
+                <a href="/" class="enlance">
                     <img src="img/Logo3.png" alt="" class="logo"/>
                 </a>
                 <ul>

@@ -1,0 +1,52 @@
+.nono {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.novedades{
+    border: 3px groove black;
+    margin: 30px;
+    padding: 30px;
+}
+.novedades h4{
+    border-bottom: 3px solid #000000;
+}
+.novedades p{
+    margin: 10px;
+}
+.sentey{
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 10px;
+}
+#main-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 150px auto;
+    width: 600px;
+}
+
+table{
+    text-align: left;
+    background-color: white;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    border: solid 1px black;
+    padding: 20px;
+    width: 50px;
+}
+thead{
+    background-color: #246355;
+    border-bottom: solid 5px #0f362d;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+

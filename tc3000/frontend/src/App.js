@@ -20,9 +20,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Header></Header>
-      <Nav/> 
-      <Footer/>
+
       <Routes>
+      
       <Route path="/" element={<InicioPage/>} />
       <Route path="institucional" element={<InstitucionalPage/>} />
       <Route path="pilotos" element={<PilotosPage/>}/>
@@ -32,7 +32,9 @@ function App() {
       <Route path="contacto" element={<ContactoPage/>} />
       
       </Routes>
+
       </BrowserRouter>
+      <Footer/>
 
     </div>
   );

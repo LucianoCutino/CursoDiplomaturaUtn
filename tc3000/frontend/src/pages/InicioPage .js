@@ -1,3 +1,4 @@
+import '../styles/InicioPage.css';
 import react from 'react';
 const InicioPage = (props) => {
     return (

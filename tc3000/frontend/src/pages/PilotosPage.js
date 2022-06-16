@@ -1,3 +1,4 @@
+import '../styles/PilotosPage.css';
 import react from 'react';
 const PilotosPage = (props) => {
     return(

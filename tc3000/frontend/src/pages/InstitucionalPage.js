@@ -1,3 +1,4 @@
+import '../styles/InstitucionalPage.css';
 import react from 'react';
 const InstitucionalPage = (props) => {
     return(

@@ -1,3 +1,4 @@
+import '../styles/FotosPage.css';
 import react from 'react';
 const FotosPage = (props) => {
     return(
