@@ -1,12 +1,12 @@
-h2{
-    text-align: center;
-}
+
 
 .pepe {
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     line-height: 200%;
+    margin: 10px;
+    padding: 8px;
 }
 
 .conteiner h2 {

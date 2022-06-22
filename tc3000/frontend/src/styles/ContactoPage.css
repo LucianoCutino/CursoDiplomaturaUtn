@@ -1,8 +1,10 @@
 .foto {
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 8px;
 }
 
 form {
